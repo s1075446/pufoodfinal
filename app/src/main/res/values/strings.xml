@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TestEmptyActivity 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">首頁</string>
+    <string name="collect">收藏</string>
+    <string name="information">店家資訊</string>
+    <string name="about">關於</string>
+    <string name="login">登入</string>
+    <string name="service">意見回饋</string>
+    <string name="profile">個人中心</string>
+    <string name="profile1">會員資料</string>
+    <string name="user_name">使用者名稱</string>
+    <string name="user_photo">使用者圖片</string>
+    <string name="password">更改密碼</string>
+    <string name="review">查看先前評論</string>
+    <string name="feedback">意見回饋</string>
+    <string name="delete">刪除</string>
+    <string name="submit">傳送</string>
+    <string name="enternew">輸入新密碼</string>
+    <string name="againnew">確認新密碼</string>
+    <string name="againnewet1">請輸入新密碼</string>
+    <string name="againnewet2">請再一次輸入</string>
+    <string name="shop_name">店家名稱</string>
+    <string name="shop_name1">麥味登</string>
+    <string name="shop_name2">Box brunch</string>
+    <string name="shop_name3">弘爺漢堡</string>
+    <string name="shop_name4">橘子熊早午晚餐</string>
+    <string name="shop_name5">告胖炭烤土司</string>
+    <string name="shop_name6">樂窩本玩-手作飯糰茶飲</string>
+    <string name="shop_name7">Ｍorni莫尼早餐</string>
+    <string name="shop_name8">吐司森林 沙鹿靜宜店</string>
+    <string name="shop_name9">夏米東東</string>
+    <string name="shop_name10">韓味煮藝</string>
+    <string name="shop_name11">X麻尹 日式丼飯</string>
+    <string name="account">帳號</string>
+    <string name="password1">密碼</string>
+    <string name="account1">請輸入帳號</string>
+    <string name="password2">請輸入密碼</string>
+    <string name="login1">登入</string>
+</resources>
