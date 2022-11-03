@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="250dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/design_default_color_primary"
+    android:background="#D66878"
     android:gravity="bottom"
     android:padding="20dp">
 
@@ -24,7 +24,7 @@
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:src="@drawable/ic_round_person_24">
+                android:src="@drawable/user">
             </ImageView>
 
         </androidx.cardview.widget.CardView>

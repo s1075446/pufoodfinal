@@ -54,7 +54,7 @@
         android:hint="@string/password2" />
 
     <Button
-        android:id="@+id/btnpassword1"
+        android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login1"
@@ -63,6 +63,7 @@
         app:layout_constraintTop_toBottomOf="@id/et2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="@null"
         android:background="@drawable/shape1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,13 @@
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
     <RatingBar
         android:id="@+id/ratingbar"
         android:layout_width="wrap_content"
@@ -14,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/feedback"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/guide4"/>
 
     <View
         android:id="@+id/view1"
@@ -29,26 +36,37 @@
         android:id="@+id/feedback"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
         android:layout_margin="8dp"
         android:gravity="top|left"
         android:hint="想要給我們一些意見嗎？"
-        android:minHeight="145dp"
+        android:minHeight="175dp"
         android:inputType="text"
         android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view1"/>
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@id/btn_save_pop"/>
     <Button
         android:id="@+id/btn_save_pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="10dp"
         android:text="@string/submit"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:backgroundTint="@null"
+        android:background="@drawable/shape1"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,11 +31,6 @@
         android:label="fragment_service"
         tools:layout="@layout/fragment_service" />
     <fragment
-        android:id="@+id/informationFragment2"
-        android:name="com.example.testemptyactivity2.InformationFragment"
-        android:label="fragment_information"
-        tools:layout="@layout/fragment_information" />
-    <fragment
         android:id="@+id/loginFragment2"
         android:name="com.example.testemptyactivity2.LoginFragment"
         android:label="fragment_login"
@@ -45,4 +40,24 @@
         android:name="com.example.testemptyactivity2.PasswordFragment"
         android:label="fragment_password"
         tools:layout="@layout/fragment_password" />
+    <fragment
+        android:id="@+id/service1Fragment"
+        android:name="com.example.testemptyactivity2.Service1Fragment"
+        android:label="fragment_service1"
+        tools:layout="@layout/fragment_service1" />
+    <fragment
+        android:id="@+id/breakfastFragment"
+        android:name="com.example.testemptyactivity2.BreakfastFragment"
+        android:label="fragment_breakfast"
+        tools:layout="@layout/fragment_breakfast" />
+    <fragment
+        android:id="@+id/lunchFragment"
+        android:name="com.example.testemptyactivity2.LunchFragment"
+        android:label="fragment_lunch"
+        tools:layout="@layout/fragment_lunch" />
+    <fragment
+        android:id="@+id/dinnerFragment"
+        android:name="com.example.testemptyactivity2.DinnerFragment"
+        android:label="fragment_dinner"
+        tools:layout="@layout/fragment_dinner" />
 </navigation>

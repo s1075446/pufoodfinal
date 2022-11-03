@@ -10,11 +10,23 @@
             android:title="@string/home"
             android:icon="@drawable/ic_round_home_24"/>
 
+        <item android:title="@string/information">
+        <menu>
         <item
-            android:id="@+id/informationFragment2"
-            android:title="@string/information"
-            android:icon="@drawable/ic_round_local_dining_24"/>
+            android:id="@+id/breakfastFragment"
+            android:title="@string/breakfast"
+            android:icon="@drawable/sun"/>
+            <item
+                android:id="@+id/lunchFragment"
+                android:title="@string/lunch"
+                android:icon="@drawable/ic_round_local_dining_24"/>
+            <item
+                android:id="@+id/dinnerFragment"
+                android:title="@string/dinner"
+                android:icon="@drawable/dinner"/>
 
+        </menu>
+        </item>
         <item android:title="@string/profile">
             <menu>
             <item

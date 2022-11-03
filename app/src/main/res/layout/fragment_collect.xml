@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".CollectFragment"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
         <ImageView
             android:id="@+id/image1"
             android:layout_width="wrap_content"
@@ -13,7 +16,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="@id/view1"/>
@@ -37,7 +40,9 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@id/view1"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view1"
             android:layout_width="match_parent"
@@ -55,7 +60,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s7"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view1"
             app:layout_constraintBottom_toTopOf="@id/view2"/>
@@ -79,7 +84,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view1"
-            app:layout_constraintBottom_toTopOf="@id/view2"/>
+            app:layout_constraintBottom_toTopOf="@id/view2"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view2"
             android:layout_width="match_parent"
@@ -97,7 +104,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s6"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view2"
             app:layout_constraintBottom_toTopOf="@id/view3"/>
@@ -121,7 +128,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view2"
-            app:layout_constraintBottom_toTopOf="@id/view3"/>
+            app:layout_constraintBottom_toTopOf="@id/view3"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view3"
             android:layout_width="match_parent"
@@ -139,7 +148,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s10"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view3"
             app:layout_constraintBottom_toTopOf="@id/view4"/>
@@ -163,7 +172,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view3"
-            app:layout_constraintBottom_toTopOf="@id/view4"/>
+            app:layout_constraintBottom_toTopOf="@id/view4"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view4"
             android:layout_width="match_parent"
@@ -181,7 +192,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s2"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view4"
             app:layout_constraintBottom_toTopOf="@id/view5"/>
@@ -190,7 +201,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/shop_name3"
+            android:text="@string/shop_name5"
             android:textSize="20sp"
             app:layout_constraintLeft_toRightOf="@id/image5"
             app:layout_constraintTop_toBottomOf="@id/view4"
@@ -205,7 +216,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view4"
-            app:layout_constraintBottom_toTopOf="@id/view5"/>
+            app:layout_constraintBottom_toTopOf="@id/view5"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view5"
             android:layout_width="match_parent"
@@ -223,7 +236,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s8"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view5"
             app:layout_constraintBottom_toTopOf="@id/view6"/>
@@ -247,7 +260,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view5"
-            app:layout_constraintBottom_toTopOf="@id/view6"/>
+            app:layout_constraintBottom_toTopOf="@id/view6"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view6"
             android:layout_width="match_parent"
@@ -265,7 +280,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s11"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view6"
             app:layout_constraintBottom_toTopOf="@id/view7"/>
@@ -289,7 +304,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view6"
-            app:layout_constraintBottom_toTopOf="@id/view7"/>
+            app:layout_constraintBottom_toTopOf="@id/view7"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view7"
             android:layout_width="match_parent"
@@ -307,7 +324,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s9"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view7"
             app:layout_constraintBottom_toTopOf="@id/view8"/>
@@ -331,7 +348,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view7"
-            app:layout_constraintBottom_toTopOf="@id/view8"/>
+            app:layout_constraintBottom_toTopOf="@id/view8"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view8"
             android:layout_width="match_parent"
@@ -349,7 +368,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s3"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view8"
             app:layout_constraintBottom_toTopOf="@id/view9"/>
@@ -373,7 +392,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view8"
-            app:layout_constraintBottom_toTopOf="@id/view9"/>
+            app:layout_constraintBottom_toTopOf="@id/view9"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view9"
             android:layout_width="match_parent"
@@ -391,7 +412,7 @@
             android:layout_margin="10dp"
             android:adjustViewBounds="true"
             android:maxHeight="55dp"
-            android:src="@drawable/shop"
+            android:src="@drawable/s4"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view9"
             app:layout_constraintBottom_toTopOf="@id/view10"/>
@@ -415,7 +436,9 @@
             android:textSize="20sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view9"
-            app:layout_constraintBottom_toTopOf="@id/view10"/>
+            app:layout_constraintBottom_toTopOf="@id/view10"
+            app:backgroundTint="@null"
+            android:background="#D66878"/>
         <View
             android:id="@+id/view10"
             android:layout_width="match_parent"
@@ -425,4 +448,49 @@
             app:layout_constraintTop_toBottomOf="@id/image10"
             android:background="@android:color/darker_gray"
             />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/image11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="55dp"
+                    android:src="@drawable/s5"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view10"
+                    app:layout_constraintBottom_toTopOf="@id/view11"/>
+                <TextView
+                    android:id="@+id/tvcollect11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/shop_name11"
+                    android:textSize="20sp"
+                    app:layout_constraintLeft_toRightOf="@id/image11"
+                    app:layout_constraintTop_toBottomOf="@id/view10"
+                    app:layout_constraintBottom_toTopOf="@id/view11"/>
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/delete"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view10"
+                    app:layout_constraintBottom_toTopOf="@id/view11"
+                    app:backgroundTint="@null"
+                    android:background="#D66878"/>
+                <View
+                    android:id="@+id/view11"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image11"
+                    android:background="@android:color/darker_gray"
+                    />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

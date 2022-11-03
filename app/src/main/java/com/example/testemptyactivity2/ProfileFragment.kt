@@ -14,15 +14,16 @@ class ProfileFragment : Fragment(){
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_profile, container, false)
+        //val view = inflater.inflate(R.layout.fragment_profile, container, false)
         //收藏按鈕監聽
-        val btncollect : Button =view.findViewById(R.id.btncollect)
-        btncollect.setOnClickListener {
-            val fragment=CollectFragment()
-            val transaction = fragmentManager?.beginTransaction()
-            transaction?.replace(R.id.fragment,fragment)?.commit()
-        }
-        return view
+        //val btncollect : Button =view.findViewById(R.id.btncollect)
+       // btncollect.setOnClickListener {
+            //val fragment=CollectFragment()
+            //val transaction = fragmentManager?.beginTransaction()
+            //transaction?.replace(R.id.fragment,fragment)?.commit()
+        return inflater.inflate(R.layout.fragment_profile, container, false)
+        //}
+        //return view
     }
 
 }

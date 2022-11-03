@@ -19,7 +19,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:gravity="center"
-            android:background="@color/design_default_color_primary"
+            android:background="#DF7483"
             android:id="@+id/top_bar">
 
             <ImageView

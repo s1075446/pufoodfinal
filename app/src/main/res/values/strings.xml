@@ -12,15 +12,14 @@
     <string name="profile1">會員資料</string>
     <string name="user_name">使用者名稱</string>
     <string name="user_photo">使用者圖片</string>
-    <string name="password">更改密碼</string>
     <string name="review">查看先前評論</string>
     <string name="feedback">意見回饋</string>
     <string name="delete">刪除</string>
     <string name="submit">傳送</string>
-    <string name="enternew">輸入新密碼</string>
+    <string name="password">更改密碼</string>
+    <string name="enterold">舊密碼</string>
+    <string name="enternew">新密碼</string>
     <string name="againnew">確認新密碼</string>
-    <string name="againnewet1">請輸入新密碼</string>
-    <string name="againnewet2">請再一次輸入</string>
     <string name="shop_name">店家名稱</string>
     <string name="shop_name1">麥味登</string>
     <string name="shop_name2">Box brunch</string>
@@ -38,4 +37,17 @@
     <string name="account1">請輸入帳號</string>
     <string name="password2">請輸入密碼</string>
     <string name="login1">登入</string>
+    <string name="account2">a1234567</string>
+    <string name="change">修改資料</string>
+    <string name="birth">生日 :</string>
+    <string name="birth1">2000-01-01</string>
+    <string name="phone">手機號碼 :</string>
+    <string name="phone1">0978123456</string>
+    <string name="mail">電子郵件 :</string>
+    <string name="mail1">a123456@gmail.com</string>
+    <string name="thank">感謝您的評論：）</string>
+    <string name="back">返回主頁</string>
+    <string name="breakfast">早餐</string>
+    <string name="lunch">午餐</string>
+    <string name="dinner">晚餐</string>
 </resources>
